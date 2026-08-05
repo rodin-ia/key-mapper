@@ -3,13 +3,13 @@ package com.example.keymapper
 import android.os.Bundle
 import android.util.DisplayMetrics
 import android.widget.Button
-import androidx.fragment.app.FragmentActivity
+import android.app.Activity
 
 
 /**
  * Loads [MainFragment].
  */
-class MainActivity : FragmentActivity() {
+class MainActivity : Activity() {
     private lateinit var mMetrics: DisplayMetrics
 
     override fun onCreate(savedInstanceState: Bundle?) {
