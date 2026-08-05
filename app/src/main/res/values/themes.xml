@@ -1,4 +1,4 @@
 <resources>
 
-    <style name="Theme.KeyMapper" parent="@style/Theme.Leanback" />
+    <style name="Theme.KeyMapper" parent="android:style/Theme.DeviceDefault" />
 </resources>
